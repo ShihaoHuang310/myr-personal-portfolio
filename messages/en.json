@@ -1,0 +1,19 @@
+{
+  "IntroSection": {
+    "hello_im": "Hi, my name is",
+    "name": "Yiru Ma",
+    "short_intro": "I focus on product management and customer needs analysis!",
+    "download_cv": "Download CV",
+    "blog": "Blog",
+    "contact": "contact"
+  },
+  "SectionName": {
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "AboutSection": {
+    "desc": ""
+  }
+}
