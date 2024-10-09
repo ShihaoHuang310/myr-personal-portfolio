@@ -84,7 +84,7 @@ export default function Project({
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70 cursor-pointer tooltip"
                 data-tooltip={tag.en}
                 key={index}>
-                {tag.zh}
+                {activeLocale === 'zh' ? tag.zh : tag.en}
               </li>
             ))}
           </ul>
