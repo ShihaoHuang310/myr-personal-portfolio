@@ -6,7 +6,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import { isMobileDevice } from '@/lib/utils'
 // import Contact from "@/components/Contact"
-
+import './globals.css'
 export const metadata = {
   title: 'Ichi | Personal Portfolio',
   description: 'Ichi is a full-stack developer with 2 years of experience.'

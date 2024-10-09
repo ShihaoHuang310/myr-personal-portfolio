@@ -31,6 +31,8 @@ export default function Project({
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1])
   const activeLocale = useLocale()
   const tagsList = activeLocale === 'zh' ? tags : tags_en
+  //英文不显示tags太长了
+  // const tagsList = activeLocale === 'zh' ? tags : []
 
   return (
     <motion.div
@@ -43,7 +45,7 @@ export default function Project({
       <section className="bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[28rem]  transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 ">
         <div className="group pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col items-start gap-3 h-full sm:group-even:ml-[18rem]">
           <div className="flex flex-col gap-3 items-start ">
-            <h3 className="text-2xl font-semibold group-hover:text-pink dark:group-hover:text-yellow hover:underline">
+            <h3 className="text-[16px] font-semibold group-hover:text-pink dark:group-hover:text-yellow hover:underline ">
               <Link href={demoUrl} target="_blank">
                 {activeLocale === 'zh' ? title_zh : title}
               </Link>
@@ -73,15 +75,16 @@ export default function Project({
             </div>
           </div>
 
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+          <p className="mt-2 text-[14px] text-gray-500 dark:text-white/70 h-25  overflow-y-auto custom-scrollbar">
             {activeLocale === 'zh' ? desc_zh : description}
           </p>
           <ul className="flex flex-wrap mt-auto gap-2">
-            {tagsList.map((tag, index) => (
+            {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70 cursor-pointer tooltip"
+                data-tooltip={tag.en}
                 key={index}>
-                {tag}
+                {tag.zh}
               </li>
             ))}
           </ul>

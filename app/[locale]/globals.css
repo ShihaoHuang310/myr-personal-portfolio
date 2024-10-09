@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 修改滚动条大小和颜色 */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px; /* 水平滚动条的高度 */
+  height: 6px; /* 垂直滚动条的宽度 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* 滚动条轨道颜色 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888; /* 滚动条滑块颜色 */
+  border-radius: 6px; /* 滚动条滑块圆角 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* 滚动条滑块 hover 颜色 */
+}
+
+/* tooltip */
+.tooltip {
+  /* @apply px-3 py-2 rounded-md border border-neutral-300 bg-neutral-200 hover:bg-neutral-300 text-sm font-medium text-neutral-600 relative z-[9999999999]; */
+  @apply data-[tooltip]:after:content-[attr(data-tooltip)] data-[tooltip]:after:invisible data-[tooltip]:after:scale-50 data-[tooltip]:after:origin-bottom data-[tooltip]:after:opacity-0;
+  @apply hover:data-[tooltip]:after:visible hover:data-[tooltip]:after:opacity-100 hover:data-[tooltip]:after:scale-100;
+  @apply data-[tooltip]:after:transition-all data-[tooltip]:after:absolute data-[tooltip]:after:bg-black data-[tooltip]:after:bottom-[calc(100%+4px)] data-[tooltip]:after:left-1/2 data-[tooltip]:after:-translate-x-1/2 data-[tooltip]:after:-z-[1];
+  @apply data-[tooltip]:after:px-1.5 data-[tooltip]:after:py-1 data-[tooltip]:after:min-h-fit data-[tooltip]:after:min-w-fit data-[tooltip]:after:rounded-md data-[tooltip]:after:drop-shadow data-[tooltip]:before:drop-shadow;
+  @apply data-[tooltip]:after:text-center data-[tooltip]:after:text-white data-[tooltip]:after:whitespace-nowrap data-[tooltip]:after:text-[10px];
+  @apply data-[tooltip]:before:invisible data-[tooltip]:before:opacity-0 hover:data-[tooltip]:before:visible hover:data-[tooltip]:before:opacity-100;
+  @apply data-[tooltip]:before:transition-all data-[tooltip]:before:bg-black data-[tooltip]:before:[clip-path:polygon(100%_0,0_0,50%_100%)];
+  @apply data-[tooltip]:before:absolute data-[tooltip]:before:bottom-full data-[tooltip]:before:left-1/2 data-[tooltip]:before:-translate-x-1/2 data-[tooltip]:before:z-0 data-[tooltip]:before:w-3 data-[tooltip]:before:h-[4px];
+}

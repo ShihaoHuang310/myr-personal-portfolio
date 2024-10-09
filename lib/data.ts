@@ -310,13 +310,27 @@ export const projectsData = [
       'I contributed to the initial development of a lightweight inventory management system for small hazardous materials enterprises, addressing their supply chain needs in procurement, sales, warehousing, inventory, data, compliance, and safety.',
     desc_zh:
       '为了支撑公司打造危化品行业的全套供应链业务场景，初步搭建一套自研的轻量级进销存系统，目标客户为小型仓库的危化品企业，主要满足小型危化品公司采购、销售、仓库配货、全局库存管理、企业数据统计、合规及安全管理等功能',
-    tags: ['供应链管理', '产品设计', '业务需求调研', '信息化管理', '第三方对接'],
-    tags_en: [
-      'Supply Chain Management',
-      'Product Design',
-      'Business Requirements Analysis',
-      'Informatization Management',
-      'Third-Party Integration'
+    tags: [
+      {
+        zh: '供应链管理',
+        en: 'Supply Chain Management'
+      },
+      {
+        zh: '产品设计',
+        en: 'Product Design'
+      },
+      {
+        zh: '业务需求调研',
+        en: 'Business Requirements Analysis'
+      },
+      {
+        zh: '信息化管理',
+        en: 'Informatization Management'
+      },
+      {
+        zh: '第三方对接',
+        en: 'Third-Party Integration'
+      }
     ],
     imageUrl: HMIMSImage,
     projectUrl: 'https://mmtdgk.axshare.com',
@@ -330,13 +344,27 @@ export const projectsData = [
       'Developed a warehouse management system for hazardous materials production and storage enterprises. This system complies with the hazardous materials traceability code management and dynamic inbound and outbound requirements issued by the Shanghai Emergency Bureau. It assists production enterprises in batch applying for traceability codes within the emergency bureau system, as well as downloading, managing, and printing hazardous materials traceability codes. Additionally, it enables automatic reporting of inbound and outbound operations to the emergency bureau for hazardous materials production and storage enterprises.',
     desc_zh:
       '为危化品生产及仓储企业打造一个仓管系统，该系统满足上海应急局所下发的危化品追溯码管理及动态出入库要求，帮助生产企业在应急局系统批量申请追溯码，下载、管理、打印危化品追溯码；并为危化品生产及仓储企业实现危化品出入库自动上报至应急局的动态出入库功能',
-    tags: ['危化品追溯码', '动态出入库管理', '定制化解决方案', 'WMS 通用功能设计'],
-    tags_en: [
-      'Hazardous Chemicals Traceability Code',
-      'Dynamic Warehousing Management',
-      'Customized Solutions',
-      'Multi-Version System Development',
-      'WMS General Functionality Design'
+    tags: [
+      {
+        zh: '危化品追溯码',
+        en: 'Hazardous Chemicals Traceability Code'
+      },
+      {
+        zh: '动态出入库管理',
+        en: 'Dynamic Warehousing Management'
+      },
+      {
+        zh: '定制化解决方案',
+        en: 'Customized Solutions'
+      },
+      {
+        zh: 'WMS',
+        en: 'WMS'
+      },
+      {
+        zh: '通用功能设计',
+        en: 'Multi-Version System Development'
+      }
     ],
     imageUrl: ICIMSImage,
     projectUrl: '',
@@ -350,18 +378,26 @@ export const projectsData = [
     desc_zh:
       '为上海某第三方危化品仓储公司打造的一套货主预约送货/提货及当日车辆进入现场作业的全流程管理的数字化系统',
     tags: [
-      '现场调研',
-      '送货/提货预约系统',
-      '业务流程优化',
-      '车辆排队叫号与预约排班',
-      '通用解决方案'
-    ],
-    tags_en: [
-      'Site Investigation',
-      'Delivery/Pick-up Appointment System',
-      'Business Process Optimization',
-      'Vehicle Queuing and Appointment Scheduling',
-      'Generic Solution'
+      {
+        zh: '现场调研',
+        en: 'Site Investigation'
+      },
+      {
+        zh: '送货/提货预约系统',
+        en: 'Delivery/Pick-up Appointment System'
+      },
+      {
+        zh: '业务流程优化',
+        en: 'Business Process Optimization'
+      },
+      {
+        zh: '车辆排队叫号与预约排班',
+        en: 'Vehicle Queuing and Appointment Scheduling'
+      },
+      {
+        zh: '通用解决方案',
+        en: 'Generic Solution'
+      }
     ],
     imageUrl: HMWRSImage,
     projectUrl: '',
@@ -374,13 +410,27 @@ export const projectsData = [
       'Designed a digital system focused on inland shipping, incorporating themes such as green energy conservation, environmental changes, emergency response, emergency command, and channel management, and developed a corresponding set of digital solutions for the shipping industry.',
     desc_zh:
       '以内河航运为主体，结合绿色节能、环境变化、应急响应、应急指挥、航道管理等主题，设计的数字化系统并编写相应的一套航运的数字化解决方案。',
-    tags: ['政策研读', '安全保障应急管控', '系统功能设计', '解决方案编制', '需求响应'],
-    tags_en: [
-      'Policy Research',
-      'Emergency Management and Control for Safety Assurance',
-      'System Functionality Design',
-      'Solution Development',
-      'Requirement Response'
+    tags: [
+      {
+        zh: '政策研读',
+        en: 'Policy Research'
+      },
+      {
+        zh: '安全保障应急管控',
+        en: 'Emergency Management and Control for Safety Assurance'
+      },
+      {
+        zh: '系统功能设计',
+        en: 'System Functionality Design'
+      },
+      {
+        zh: '解决方案编制',
+        en: 'Solution Development'
+      },
+      {
+        zh: '需求响应',
+        en: 'Requirement Response'
+      }
     ],
     imageUrl: ISPImage,
     projectUrl: '',
@@ -393,13 +443,27 @@ export const projectsData = [
     description: `A hazardous materials tank company faced challenges due to the upper management's push for an employee attendance system, which rendered the existing assessment model inadequate. Coupled with issues such as a fragmented system, poor information flow, and low operational efficiency, the company decided to develop a comprehensive digital management system for the entire operational process.`,
     desc_zh:
       '某危化品储罐公司面临上层集团推进员工考勤制度，导致公司现有考核模式难以满足，加上现有系统分散、信息不畅，以及作业工作效率低等问题，决定搭建一套综合性数字化作业全流程管理系统。',
-    tags: ['现场调研', '业务流程分析', '需求分析', '可视化设计', '解决方案编制'],
-    tags_en: [
-      'Site Investigation',
-      'Business Process Analysis',
-      'Requirement Analysis',
-      'Visualization Design',
-      'Solution Development'
+    tags: [
+      {
+        zh: '现场调研',
+        en: 'Site Investigation'
+      },
+      {
+        zh: '业务流程分析',
+        en: 'Business Process Analysis'
+      },
+      {
+        zh: '需求分析',
+        en: 'Requirement Analysis'
+      },
+      {
+        zh: '可视化设计',
+        en: 'Visualization Design'
+      },
+      {
+        zh: '解决方案编制',
+        en: 'Solution Development'
+      }
     ],
     imageUrl: ISFCSHMSAOImage,
     projectUrl: '',
@@ -412,13 +476,28 @@ export const projectsData = [
       'Collaborated with the Suzhou Industrial Park Sub-bureau to address issues of resource waste due to unreasonable early monitoring network planning, which resulted in multiple devices per pole and blind spots. Developed the Vision Platform to reallocate monitoring resources and simulate the completion of blind spots, providing supporting materials for future upgrades and enhancements of the monitoring system.',
     desc_zh:
       '与苏州园区分局合作，解决早期监控网规划不合理出现的一杆多机的资源浪费及存在盲区的问题，搭建视境平台以重新规划监控资源，同时模拟补全盲区，为之后监控的升级建设提供支撑材料。',
-    tags: ['需求分析', '功能开发', 'WEBGIS', '视频质态评估', '多平台对接'],
-    tags_en: [
-      'Requirement Analysis',
-      'Functional Development',
-      'Historical Visualization',
-      'Video Quality Assessment',
-      'Platform Integration'
+
+    tags: [
+      {
+        zh: '需求分析',
+        en: 'Requirement Analysis'
+      },
+      {
+        zh: '功能开发',
+        en: 'Functional Development'
+      },
+      {
+        zh: 'WEBGIS',
+        en: 'Historical Visualization'
+      },
+      {
+        zh: '视频质态评估',
+        en: 'Video Quality Assessment'
+      },
+      {
+        zh: '多平台对接',
+        en: 'Platform Integration'
+      }
     ],
     imageUrl: szSysImage,
     projectUrl: '',
@@ -431,13 +510,28 @@ export const projectsData = [
       'Based on the dual demand of "enterprise side + government side," developed a platform product that empowers both enterprises and government entities. This project incorporated the latest business management requirements and user feedback to enhance functionalities such as data aggregation methods, business process flows, evaluation system configuration, and historical data analysis.',
     desc_zh:
       '基于“企业端+政务端”的双重需求背景下，搭建可为企业端、政务端赋能的平台产品，并结合最新业务管理需求与用户反馈，实现数据汇聚方式、业务功能流程、评价体系配置、历史数据分析等功能强化；	',
-    tags: ['需求调研', '功能分析', '用户体验', '产品开发', '项目管理'],
-    tags_en: [
-      'Requirement Research',
-      'Functional Analysis',
-      'User Experience',
-      'Product Development',
-      'Project Management'
+
+    tags: [
+      {
+        zh: '需求调研',
+        en: 'Requirement Research'
+      },
+      {
+        zh: '功能分析',
+        en: 'Functional Analysis'
+      },
+      {
+        zh: '用户体验',
+        en: 'User Experience'
+      },
+      {
+        zh: '产品开发',
+        en: 'Product Development'
+      },
+      {
+        zh: '项目管理',
+        en: 'Project Management'
+      }
     ],
     imageUrl: szSysImage2,
     projectUrl: '',
@@ -450,13 +544,27 @@ export const projectsData = [
       'Based on the comprehensive evaluation methods for building economy, developed a digital management and information platform for comprehensive evaluation, aimed at achieving an overall understanding and scientific assessment of the current state of the building economy.',
     desc_zh:
       '立足楼宇经济综合评价办法，构建数字化管理与综合评价信息化平台，旨在实现对楼经济现状的总体掌握与科学评价',
-    tags: ['可视化图表', '综合评估', '需求梳理', '页面开发', '项目管理'],
-    tags_en: [
-      'Building Economy Information Analysis',
-      'Comprehensive Evaluation',
-      'Requirement Gathering',
-      'Page Development',
-      'Project Management'
+    tags: [
+      {
+        zh: '可视化图表',
+        en: 'Building Economy Information Analysis'
+      },
+      {
+        zh: '综合评估',
+        en: 'Comprehensive Evaluation'
+      },
+      {
+        zh: '需求梳理',
+        en: 'Requirement Gathering'
+      },
+      {
+        zh: '页面开发',
+        en: 'Page Development'
+      },
+      {
+        zh: '项目管理',
+        en: 'Project Management'
+      }
     ],
     imageUrl: szSysImage3,
     projectUrl: '',
