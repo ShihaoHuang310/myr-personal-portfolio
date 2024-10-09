@@ -29,9 +29,7 @@ export default function Project({
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1])
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1])
   const activeLocale = useLocale()
-  const tagsList = activeLocale === 'zh' ? tags : tags_en
-  //英文不显示tags太长了
-  // const tagsList = activeLocale === 'zh' ? tags : []
+
 
   return (
     <motion.div
