@@ -17,7 +17,6 @@ export default function Project({
   desc_zh,
   title_zh,
   tags,
-  tags_en,
   imageUrl,
   projectUrl,
   demoUrl
