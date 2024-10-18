@@ -68,7 +68,7 @@ export const experiencesData = [
         title: ''
       },
       {
-        info: 'Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
+        info: '4.Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
         title: ''
       }
     ],
