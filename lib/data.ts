@@ -55,26 +55,26 @@ export const experiencesData = [
     title: 'Solutions Engineer',
     location: 'Shanghai Huwan Intelligent Technology Co., Ltd.',
     description: [
-      {
-        info: 'Responsible for the design and implementation of IoT and software solutions, successfully promoted the establishment of key projects, and significantly improved the efficiency of customer business processes. Through in-depth demand analysis and customer interviews, we identify and solve major pain points, assist the development team in writing plans, and ensure the effective implementation of project requirements. At the same time, we formulate project solutions, produce PPTs to promote cooperation, collaborate with the back-end team to build business frameworks, clarify technical indicators, reduce development cycles, and ultimately achieve high customer satisfaction.',
-        title: ''
-      }
       // {
-      //   info: '1. Design and implement IoT and software solutions, promote key project approval, improve customer business process efficiency, conduct demand analysis, identify and solve major pain points.',
-      //   title: ''
-      // },
-      // {
-      //   info: '2. Develop project solutions, create PPTs to promote cooperation, ensure the feasibility of project construction, and gain high customer satisfaction.',
-      //   title: ''
-      // },
-      // {
-      //   info: '3.Collaborate with the back-end team to build the business framework, clarify technical indicators, ensure the implementation of requirements, and optimize the development cycle.',
-      //   title: ''
-      // },
-      // {
-      //   info: '4.Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
+      //   info: 'Responsible for the design and implementation of IoT and software solutions, successfully promoted the establishment of key projects, and significantly improved the efficiency of customer business processes. Through in-depth demand analysis and customer interviews, we identify and solve major pain points, assist the development team in writing plans, and ensure the effective implementation of project requirements. At the same time, we formulate project solutions, produce PPTs to promote cooperation, collaborate with the back-end team to build business frameworks, clarify technical indicators, reduce development cycles, and ultimately achieve high customer satisfaction.',
       //   title: ''
       // }
+      {
+        info: '1. Design and implement IoT and software solutions, promote key project approval, improve customer business process efficiency, conduct demand analysis, identify and solve major pain points.',
+        title: ''
+      },
+      {
+        info: '2. Develop project solutions, create PPTs to promote cooperation, ensure the feasibility of project construction, and gain high customer satisfaction.',
+        title: ''
+      },
+      {
+        info: '3.Collaborate with the back-end team to build the business framework, clarify technical indicators, ensure the implementation of requirements, and optimize the development cycle.',
+        title: ''
+      },
+      {
+        info: '4.Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
+        title: ''
+      }
     ],
     icon: React.createElement(AiOutlineFundProjectionScreen),
     honors: '',
@@ -84,26 +84,26 @@ export const experiencesData = [
     title: 'Project Manager Assistant & Front-end Developer',
     location: 'Suzhou Surveying and Mapping Geographic Information Co., Ltd.',
     description: [
-      {
-        info: 'Participate in demand analysis, sort out business processes, discover pain points, and assist the team in architecture analysis and blueprint drawing. Formulate project implementation plans, promote cooperation, ensure project feasibility and successful delivery. Responsible for front-end development, implement requirements, and improve user experience. Assist project managers in promoting the informatization construction of Suzhou Industrial Park, participate in the construction and function development of digital twin systems and public security systems, and improve system stability.',
-        title: ''
-      }
       // {
-      //   info: '1. Participate in demand analysis, sort out business processes, discover demand pain points, assist business and development teams in architecture analysis and blueprint drawing, and improve project success rate.',
-      //   title: ''
-      // },
-      // {
-      //   info: '2. Develop project implementation plans, draw up PPTs to promote collaboration, ensure project feasibility and implementation plans, and successfully deliver multiple projects.',
-      //   title: ''
-      // },
-      // {
-      //   info: '3. Responsible for front-end project development, ensuring requirements are met, improving user experience, and reducing user feedback time.',
-      //   title: ''
-      // },
-      // {
-      //   info: '4. Assist the project manager in carrying out the informatization construction of Suzhou Industrial Park, participate in the construction and functional development of the digital twin system and public security system, and improve system stability.',
+      //   info: 'Participate in demand analysis, sort out business processes, discover pain points, and assist the team in architecture analysis and blueprint drawing. Formulate project implementation plans, promote cooperation, ensure project feasibility and successful delivery. Responsible for front-end development, implement requirements, and improve user experience. Assist project managers in promoting the informatization construction of Suzhou Industrial Park, participate in the construction and function development of digital twin systems and public security systems, and improve system stability.',
       //   title: ''
       // }
+      {
+        info: '1. Participate in demand analysis, sort out business processes, discover demand pain points, assist business and development teams in architecture analysis and blueprint drawing, and improve project success rate.',
+        title: ''
+      },
+      {
+        info: '2. Develop project implementation plans, draw up PPTs to promote collaboration, ensure project feasibility and implementation plans, and successfully deliver multiple projects.',
+        title: ''
+      },
+      {
+        info: '3. Responsible for front-end project development, ensuring requirements are met, improving user experience, and reducing user feedback time.',
+        title: ''
+      },
+      {
+        info: '4. Assist the project manager in carrying out the informatization construction of Suzhou Industrial Park, participate in the construction and functional development of the digital twin system and public security system, and improve system stability.',
+        title: ''
+      }
     ],
     icon: React.createElement(FaVuejs),
     honors: '',
@@ -114,7 +114,7 @@ export const experiencesData = [
     location: 'University of Manchester, UK',
     description: [
       {
-        info: 'Studied GIS, Remote Sensing Applications, Spatial Ecology, Geographic Information Systems and Environmental Applications, Digital Image Processing and Data Analysis, etc.; achieved Merit, ranked in the top 10 of the class;',
+        info: 'Studied GIS, Remote Sensing Applications, Spatial Ecology, Geographic Information Systems and Environmental Applications, Digital Image Processing and Data Analysis, etc.; achieved Merit, ranked in the top 10 of the class.',
         title: ''
       }
     ],

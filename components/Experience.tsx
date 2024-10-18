@@ -72,7 +72,7 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
                   {item.description.map(desc => (
                     <p
                       key={desc.info}
-                      className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
+                      className="!mt-2 !font-normal text-gray-700 dark:text-white/75 break-all">
                       {desc.title && <span className="text-sm font-bold">{desc.title}： </span>}
 
                       {desc.info}
