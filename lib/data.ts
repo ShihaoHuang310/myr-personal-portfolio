@@ -62,23 +62,23 @@ export const experiencesData = [
       {
         info: '2. Participated in the intelligent scheduling and full-process control system project for hazardous materials storage areas, responsible for on-site communication with clients and understanding operational processes, requirements gathering, solution design, and product design, assisting clients in achieving digital management of operational processes.',
         title: ''
-      },
-      {
-        info: '3. Involved in the ICIMS project for intelligent hazardous materials traceability codes and dynamic inbound and outbound management systems, analyzing and organizing requirements based on emergency bureau policies, participating in potential client meetings to gather and organize requirements, designing functional modules, and following up on project development progress and policy changes to ensure the system meets the latest policies and corporate needs.',
-        title: ''
-      },
-      {
-        info: '4. Contributed to the inland shipping project by drafting the initial proposal, designing a digital system that incorporates themes such as green energy conservation, environmental changes, emergency response, emergency command, and channel management, and writing a corresponding set of digital solutions for shipping, which received client approval.',
-        title: ''
-      },
-      {
-        info: '5. Participated in the hazardous materials warehouse reservation management system project, responsible for requirements analysis, logical design, and product design, helping clients solve practical issues.',
-        title: ''
-      },
-      {
-        info: '6. Involved in the hazardous materials inventory management project, responsible for requirements analysis, logical design, and product design, assisting the company in initially building a self-developed lightweight inventory management system to support the comprehensive supply chain business scenarios in the hazardous materials industry.',
-        title: ''
       }
+      // {
+      //   info: '3. Involved in the ICIMS project for intelligent hazardous materials traceability codes and dynamic inbound and outbound management systems, analyzing and organizing requirements based on emergency bureau policies, participating in potential client meetings to gather and organize requirements, designing functional modules, and following up on project development progress and policy changes to ensure the system meets the latest policies and corporate needs.',
+      //   title: ''
+      // },
+      // {
+      //   info: '4. Contributed to the inland shipping project by drafting the initial proposal, designing a digital system that incorporates themes such as green energy conservation, environmental changes, emergency response, emergency command, and channel management, and writing a corresponding set of digital solutions for shipping, which received client approval.',
+      //   title: ''
+      // },
+      // {
+      //   info: '5. Participated in the hazardous materials warehouse reservation management system project, responsible for requirements analysis, logical design, and product design, helping clients solve practical issues.',
+      //   title: ''
+      // },
+      // {
+      //   info: '6. Involved in the hazardous materials inventory management project, responsible for requirements analysis, logical design, and product design, assisting the company in initially building a self-developed lightweight inventory management system to support the comprehensive supply chain business scenarios in the hazardous materials industry.',
+      //   title: ''
+      // }
     ],
     icon: React.createElement(AiOutlineFundProjectionScreen),
     honors: '',
@@ -393,7 +393,7 @@ export const projectsData = [
       {
         zh: '车辆排队叫号与预约排班',
         en: ''
-      }, 
+      },
       {
         zh: '通用解决方案',
         en: ''
