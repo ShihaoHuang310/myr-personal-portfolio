@@ -56,21 +56,25 @@ export const experiencesData = [
     location: 'Shanghai Huwan Intelligent Technology Co., Ltd.',
     description: [
       {
-        info: '1. Design and implement IoT and software solutions, promote key project approval, improve customer business process efficiency, conduct demand analysis, identify and solve major pain points.',
-        title: ''
-      },
-      {
-        info: '2. Develop project solutions, create PPTs to promote cooperation, ensure the feasibility of project construction, and gain high customer satisfaction.',
-        title: ''
-      },
-      {
-        info: '3.Collaborate with the back-end team to build the business framework, clarify technical indicators, ensure the implementation of requirements, and optimize the development cycle.',
-        title: ''
-      },
-      {
-        info: '4.Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
+        info: 'Responsible for the design and implementation of IoT and software solutions, successfully promoted the establishment of key projects, and significantly improved the efficiency of customer business processes. Through in-depth demand analysis and customer interviews, we identify and solve major pain points, assist the development team in writing plans, and ensure the effective implementation of project requirements. At the same time, we formulate project solutions, produce PPTs to promote cooperation, collaborate with the back-end team to build business frameworks, clarify technical indicators, reduce development cycles, and ultimately achieve high customer satisfaction.',
         title: ''
       }
+      // {
+      //   info: '1. Design and implement IoT and software solutions, promote key project approval, improve customer business process efficiency, conduct demand analysis, identify and solve major pain points.',
+      //   title: ''
+      // },
+      // {
+      //   info: '2. Develop project solutions, create PPTs to promote cooperation, ensure the feasibility of project construction, and gain high customer satisfaction.',
+      //   title: ''
+      // },
+      // {
+      //   info: '3.Collaborate with the back-end team to build the business framework, clarify technical indicators, ensure the implementation of requirements, and optimize the development cycle.',
+      //   title: ''
+      // },
+      // {
+      //   info: '4.Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
+      //   title: ''
+      // }
     ],
     icon: React.createElement(AiOutlineFundProjectionScreen),
     honors: '',
@@ -81,21 +85,25 @@ export const experiencesData = [
     location: 'Suzhou Surveying and Mapping Geographic Information Co., Ltd.',
     description: [
       {
-        info: '1. Participate in demand analysis, sort out business processes, discover demand pain points, assist business and development teams in architecture analysis and blueprint drawing, and improve project success rate.',
-        title: ''
-      },
-      {
-        info: '2. Develop project implementation plans, draw up PPTs to promote collaboration, ensure project feasibility and implementation plans, and successfully deliver multiple projects.',
-        title: ''
-      },
-      {
-        info: '3. Responsible for front-end project development, ensuring requirements are met, improving user experience, and reducing user feedback time.',
-        title: ''
-      },
-      {
-        info: '4. Assist the project manager in carrying out the informatization construction of Suzhou Industrial Park, participate in the construction and functional development of the digital twin system and public security system, and improve system stability.',
+        info: 'Participate in demand analysis, sort out business processes, discover pain points, and assist the team in architecture analysis and blueprint drawing. Formulate project implementation plans, promote cooperation, ensure project feasibility and successful delivery. Responsible for front-end development, implement requirements, and improve user experience. Assist project managers in promoting the informatization construction of Suzhou Industrial Park, participate in the construction and function development of digital twin systems and public security systems, and improve system stability.',
         title: ''
       }
+      // {
+      //   info: '1. Participate in demand analysis, sort out business processes, discover demand pain points, assist business and development teams in architecture analysis and blueprint drawing, and improve project success rate.',
+      //   title: ''
+      // },
+      // {
+      //   info: '2. Develop project implementation plans, draw up PPTs to promote collaboration, ensure project feasibility and implementation plans, and successfully deliver multiple projects.',
+      //   title: ''
+      // },
+      // {
+      //   info: '3. Responsible for front-end project development, ensuring requirements are met, improving user experience, and reducing user feedback time.',
+      //   title: ''
+      // },
+      // {
+      //   info: '4. Assist the project manager in carrying out the informatization construction of Suzhou Industrial Park, participate in the construction and functional development of the digital twin system and public security system, and improve system stability.',
+      //   title: ''
+      // }
     ],
     icon: React.createElement(FaVuejs),
     honors: '',
@@ -150,21 +158,25 @@ export const experiencesDataZn = [
     location: '上海沪万智能科技有限公司',
     description: [
       {
-        info: '1、设计并实施物联网及软件解决方案，推动关键项目立项，提升客户业务流程效率，进行需求分析，识别并解决主要痛点。',
-        title: ''
-      },
-      {
-        info: '2、制定项目解决方案，制作PPT推动合作，确保项目建设的可行性，获得客户高度满意。',
-        title: ''
-      },
-      {
-        info: '3、协同后端团队搭建业务框架，明确技术指标，确保需求落实，优化开发周期。',
-        title: ''
-      },
-      {
-        info: '4、设计系统雏形，模拟客户使用场景，通过流程图和思维导图展示解决方案，提升客户理解。',
+        info: '负责物联网及软件解决方案的设计与实施，成功推动关键项目立项，显著提升客户业务流程效率。通过深入需求分析和客户走访，识别并解决主要痛点，协助开发团队编写方案，确保项目需求有效落实。同时，制定项目解决方案，制作PPT推动合作，协同后端团队搭建业务框架，明确技术指标，减少开发周期，最终实现客户高满意度。',
         title: ''
       }
+      // {
+      //   info: '1、设计并实施物联网及软件解决方案，推动关键项目立项，提升客户业务流程效率，进行需求分析，识别并解决主要痛点。',
+      //   title: ''
+      // },
+      // {
+      //   info: '2、制定项目解决方案，制作PPT推动合作，确保项目建设的可行性，获得客户高度满意。',
+      //   title: ''
+      // },
+      // {
+      //   info: '3、协同后端团队搭建业务框架，明确技术指标，确保需求落实，优化开发周期。',
+      //   title: ''
+      // },
+      // {
+      //   info: '4、设计系统雏形，模拟客户使用场景，通过流程图和思维导图展示解决方案，提升客户理解。',
+      //   title: ''
+      // }
     ],
     icon: React.createElement(AiOutlineFundProjectionScreen),
     honors: '',
@@ -175,21 +187,25 @@ export const experiencesDataZn = [
     location: '苏州测绘地理信息有限公司',
     description: [
       {
-        info: '1、参与需求分析，梳理业务流程，挖掘需求痛点，协助商务和开发团队进行架构分析与蓝图绘制，提升项目成功率。',
-        title: ''
-      },
-      {
-        info: '2、制定项目实施方案，绘制PPT推动合作，确保项目可行性与实施计划，成功交付多个项目。',
-        title: ''
-      },
-      {
-        info: '3、负责前端项目开发，确保需求落实，提升用户体验，减少用户反馈时间。',
-        title: ''
-      },
-      {
-        info: '4、协助项目经理开展苏州工业园区信息化建设，参与数字孪生系统和公安系统的搭建与功能开发，提升系统稳定性。',
+        info: '参与需求分析，梳理业务流程，挖掘痛点，协助团队进行架构分析与蓝图绘制。制定项目实施方案，推动合作，确保项目可行性并成功交付。负责前端开发，落实需求，提升用户体验。协助项目经理推进苏州工业园区信息化建设，参与数字孪生系统和公安系统的搭建与功能开发，提升系统稳定性。',
         title: ''
       }
+      // {
+      //   info: '1、参与需求分析，梳理业务流程，挖掘需求痛点，协助商务和开发团队进行架构分析与蓝图绘制，提升项目成功率。',
+      //   title: ''
+      // },
+      // {
+      //   info: '2、制定项目实施方案，绘制PPT推动合作，确保项目可行性与实施计划，成功交付多个项目。',
+      //   title: ''
+      // },
+      // {
+      //   info: '3、负责前端项目开发，确保需求落实，提升用户体验，减少用户反馈时间。',
+      //   title: ''
+      // },
+      // {
+      //   info: '4、协助项目经理开展苏州工业园区信息化建设，参与数字孪生系统和公安系统的搭建与功能开发，提升系统稳定性。',
+      //   title: ''
+      // }
     ],
     icon: React.createElement(FaVuejs),
     honors: '',
