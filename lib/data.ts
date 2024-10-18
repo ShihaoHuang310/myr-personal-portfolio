@@ -307,13 +307,13 @@ export const projectsData = [
     title: 'Hazardous Materials Inventory Management System',
     title_zh: '危化品进销存系统',
     description:
-      'I contributed to the initial development of a lightweight inventory management system for small hazardous materials enterprises, addressing their supply chain needs in procurement, sales, warehousing, inventory, data, compliance, and safety.',
+      'The initial development of a lightweight inventory management system for small hazardous materials enterprises was contributed to, addressing their supply chain needs in procurement, sales, warehousing, inventory, data, compliance, and safety.',
     desc_zh:
       '为了支撑公司打造危化品行业的全套供应链业务场景，初步搭建一套自研的轻量级进销存系统，目标客户为小型仓库的危化品企业，主要满足小型危化品公司采购、销售、仓库配货、全局库存管理、企业数据统计、合规及安全管理等功能',
     tags: [
       {
         zh: '供应链管理',
-        en: 'Supply Chain Management'
+        en: ''
       },
       {
         zh: '产品设计',
@@ -325,11 +325,11 @@ export const projectsData = [
       },
       {
         zh: '信息化管理',
-        en: 'Informatization Management'
+        en: ''
       },
       {
         zh: '第三方对接',
-        en: 'Third-Party Integration'
+        en: ''
       }
     ],
     imageUrl: HMIMSImage,
@@ -347,11 +347,11 @@ export const projectsData = [
     tags: [
       {
         zh: '危化品追溯码',
-        en: 'Hazardous Chemicals Traceability Code'
+        en: ''
       },
       {
         zh: '动态出入库管理',
-        en: 'Dynamic Warehousing Management'
+        en: ''
       },
       {
         zh: '定制化解决方案',
@@ -380,23 +380,23 @@ export const projectsData = [
     tags: [
       {
         zh: '现场调研',
-        en: 'Site Investigation'
+        en: 'ENHANCE EFFICIENCY'
       },
       {
         zh: '送货/提货预约系统',
-        en: 'Delivery/Pick-up Appointment System'
+        en: 'PRODUCT DESIGN'
       },
       {
         zh: '业务流程优化',
-        en: 'Business Process Optimization'
+        en: ''
       },
       {
         zh: '车辆排队叫号与预约排班',
-        en: 'Vehicle Queuing and Appointment Scheduling'
-      },
+        en: ''
+      }, 
       {
         zh: '通用解决方案',
-        en: 'Generic Solution'
+        en: ''
       }
     ],
     imageUrl: HMWRSImage,
@@ -417,7 +417,7 @@ export const projectsData = [
       },
       {
         zh: '安全保障应急管控',
-        en: 'Emergency Management and Control for Safety Assurance'
+        en: ''
       },
       {
         zh: '系统功能设计',
@@ -429,7 +429,7 @@ export const projectsData = [
       },
       {
         zh: '需求响应',
-        en: 'Requirement Response'
+        en: ''
       }
     ],
     imageUrl: ISPImage,
@@ -450,11 +450,11 @@ export const projectsData = [
       },
       {
         zh: '业务流程分析',
-        en: 'Business Process Analysis'
+        en: ''
       },
       {
         zh: '需求分析',
-        en: 'Requirement Analysis'
+        en: ''
       },
       {
         zh: '可视化设计',
@@ -488,19 +488,19 @@ export const projectsData = [
       },
       {
         zh: 'WEBGIS',
-        en: 'Historical Visualization'
+        en: ''
       },
       {
         zh: '视频质态评估',
-        en: 'Video Quality Assessment'
+        en: ''
       },
       {
         zh: '多平台对接',
-        en: 'Platform Integration'
+        en: ''
       }
     ],
     imageUrl: szSysImage,
-    projectUrl: '',
+    projectUrl: 'https://22nok6.axshare.com',
     demoUrl: ''
   },
   {
@@ -518,15 +518,15 @@ export const projectsData = [
       },
       {
         zh: '功能分析',
-        en: 'Functional Analysis'
+        en: ''
       },
       {
         zh: '用户体验',
-        en: 'User Experience'
+        en: ''
       },
       {
         zh: '产品开发',
-        en: 'Product Development'
+        en: ''
       },
       {
         zh: '项目管理',
@@ -547,11 +547,11 @@ export const projectsData = [
     tags: [
       {
         zh: '可视化图表',
-        en: 'Building Economy Information Analysis'
+        en: ''
       },
       {
         zh: '综合评估',
-        en: 'Comprehensive Evaluation'
+        en: ''
       },
       {
         zh: '需求梳理',
@@ -563,7 +563,7 @@ export const projectsData = [
       },
       {
         zh: '项目管理',
-        en: 'Project Management'
+        en: ''
       }
     ],
     imageUrl: szSysImage3,
