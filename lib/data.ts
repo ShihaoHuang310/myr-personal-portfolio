@@ -56,29 +56,21 @@ export const experiencesData = [
     location: 'Shanghai Huwan Intelligent Technology Co., Ltd.',
     description: [
       {
-        info: '1. Served as a Solutions Engineer, primarily responsible for initial project proposal development, requirements analysis, product design, and solution formulation, participating in digital projects across multiple industry sectors.',
+        info: '1. Design and implement IoT and software solutions, promote key project approval, improve customer business process efficiency, conduct demand analysis, identify and solve major pain points.',
         title: ''
       },
       {
-        info: '2. Participated in the intelligent scheduling and full-process control system project for hazardous materials storage areas, responsible for on-site communication with clients and understanding operational processes, requirements gathering, solution design, and product design, assisting clients in achieving digital management of operational processes.',
+        info: '2. Develop project solutions, create PPTs to promote cooperation, ensure the feasibility of project construction, and gain high customer satisfaction.',
+        title: ''
+      },
+      {
+        info: '3.Collaborate with the back-end team to build the business framework, clarify technical indicators, ensure the implementation of requirements, and optimize the development cycle.',
+        title: ''
+      },
+      {
+        info: 'Design a system prototype, simulate customer usage scenarios, and demonstrate solutions through flowcharts and mind maps to enhance customer understanding.',
         title: ''
       }
-      // {
-      //   info: '3. Involved in the ICIMS project for intelligent hazardous materials traceability codes and dynamic inbound and outbound management systems, analyzing and organizing requirements based on emergency bureau policies, participating in potential client meetings to gather and organize requirements, designing functional modules, and following up on project development progress and policy changes to ensure the system meets the latest policies and corporate needs.',
-      //   title: ''
-      // },
-      // {
-      //   info: '4. Contributed to the inland shipping project by drafting the initial proposal, designing a digital system that incorporates themes such as green energy conservation, environmental changes, emergency response, emergency command, and channel management, and writing a corresponding set of digital solutions for shipping, which received client approval.',
-      //   title: ''
-      // },
-      // {
-      //   info: '5. Participated in the hazardous materials warehouse reservation management system project, responsible for requirements analysis, logical design, and product design, helping clients solve practical issues.',
-      //   title: ''
-      // },
-      // {
-      //   info: '6. Involved in the hazardous materials inventory management project, responsible for requirements analysis, logical design, and product design, assisting the company in initially building a self-developed lightweight inventory management system to support the comprehensive supply chain business scenarios in the hazardous materials industry.',
-      //   title: ''
-      // }
     ],
     icon: React.createElement(AiOutlineFundProjectionScreen),
     honors: '',
@@ -89,23 +81,19 @@ export const experiencesData = [
     location: 'Suzhou Surveying and Mapping Geographic Information Co., Ltd.',
     description: [
       {
-        info: '1. Participated in the requirements analysis, solution formulation, and project management of several key projects, including the Digital Twin "Vision" Assessment Decision System project for Suzhou Industrial Park, the Intensive Platform project, the Stability Maintenance Platform project, and the Building Economy project.',
+        info: '1. Participate in demand analysis, sort out business processes, discover demand pain points, assist business and development teams in architecture analysis and blueprint drawing, and improve project success rate.',
         title: ''
       },
       {
-        info: '2. In the Digital Twin "Vision" Assessment Decision System project, I was responsible for developing key functional modules such as layer development, historical flow visualization, video quality assessment, and simulation camera evaluation, successfully integrating with digital platforms, digital twins, and mapping platforms to achieve image relay objectives.',
+        info: '2. Develop project implementation plans, draw up PPTs to promote collaboration, ensure project feasibility and implementation plans, and successfully deliver multiple projects.',
         title: ''
       },
       {
-        info: '3. In the Intensive Platform project for Suzhou Industrial Park, I led the functional analysis for both enterprise and government sides, user experience optimization, and iterative evaluation, while coordinating the development of the approval module for the web platform to ensure smooth project implementation.',
+        info: '3. Responsible for front-end project development, ensuring requirements are met, improving user experience, and reducing user feedback time.',
         title: ''
       },
       {
-        info: '4. In the Stability Maintenance Platform project, I organized the prototype framework and led the UI team to optimize the display content and interaction methods of subpages, refactoring existing code to meet client requirements.',
-        title: ''
-      },
-      {
-        info: '5. In the Building Economy project for Suzhou Industrial Park, I was responsible for developing the building survey information page and collaborated with the project manager to establish a comprehensive information management system covering enterprise reporting, functional area review, comprehensive evaluation, and data aggregation analysis.',
+        info: '4. Assist the project manager in carrying out the informatization construction of Suzhou Industrial Park, participate in the construction and functional development of the digital twin system and public security system, and improve system stability.',
         title: ''
       }
     ],
@@ -162,27 +150,19 @@ export const experiencesDataZn = [
     location: '上海沪万智能科技有限公司',
     description: [
       {
-        info: '1、担任解决方案工程师，主要负责前期项目方案构想、需求分析、产品设计、解决方案编制等工作，参与多个行业领域的数字化项目。',
+        info: '1、设计并实施物联网及软件解决方案，推动关键项目立项，提升客户业务流程效率，进行需求分析，识别并解决主要痛点。',
         title: ''
       },
       {
-        info: '2、参与危化品库区作业智能调度全流程管控系统项目，负责去客户现场沟通及作业流程了解，需求收集、解决方案设计、产品设计等工作,帮助客户实现作业流程数字化管理。',
+        info: '2、制定项目解决方案，制作PPT推动合作，确保项目建设的可行性，获得客户高度满意。',
         title: ''
       },
       {
-        info: '3、参与icims智能危险化学品追溯码及动态出入库管理系统项目，根据应急局政策进行分析整理、参与潜在客户需求会议收集需求并整理、设计功能模块，并跟进项目开发进度及政策变化，确保系统满足最新政策和企业需求。',
+        info: '3、协同后端团队搭建业务框架，明确技术指标，确保需求落实，优化开发周期。',
         title: ''
       },
       {
-        info: '4、参与内河航运项目，编写初版方案，结合绿色节能、环境变化、应急响应、应急指挥、航道管理等主题，设计数字化系统并编写相应的一套航运的数字化解决方案，得到客户的认可。',
-        title: ''
-      },
-      {
-        info: '5、参与危化品仓库预约管理系统项目，负责需求梳理、逻辑梳理、产品设计等工作,帮助客户解决实际问题。',
-        title: ''
-      },
-      {
-        info: '6、参与危化品进销存项目，负责需求梳理、逻辑梳理、产品设计等工作,帮助公司初步搭建一套自研的轻量级进销存系统，为打造危化品行业的全套供应链业务场景提供支撑。',
+        info: '4、设计系统雏形，模拟客户使用场景，通过流程图和思维导图展示解决方案，提升客户理解。',
         title: ''
       }
     ],
@@ -195,23 +175,19 @@ export const experiencesDataZn = [
     location: '苏州测绘地理信息有限公司',
     description: [
       {
-        info: '1、参与多个重点项目的需求分析、方案编制和项目管理工作，包括苏州工业园区数字孪生"视境"评估决策系统项目、苏州工业园区集约平台项目、园区维稳平台项目和苏州工业园区楼宇经济项目等。',
+        info: '1、参与需求分析，梳理业务流程，挖掘需求痛点，协助商务和开发团队进行架构分析与蓝图绘制，提升项目成功率。',
         title: ''
       },
       {
-        info: '2、在数字孪生"视境"评估决策系统项目中，我负责图层开发、历史流可视化、视频质态评估和模拟相机评估推演等关键功能模块的开发,并成功对接数字化平台、数字孪生和地图平台等,实现了图像接力目标。',
+        info: '2、制定项目实施方案，绘制PPT推动合作，确保项目可行性与实施计划，成功交付多个项目。',
         title: ''
       },
       {
-        info: '3、在苏州工业园区集约平台项目中，我主导了企业端和政务端的功能分析、用户体验优化、迭代评估等工作,并统筹了Web端的审批模块的开发，确保了项目的顺利实施。',
+        info: '3、负责前端项目开发，确保需求落实，提升用户体验，减少用户反馈时间。',
         title: ''
       },
       {
-        info: '4、在园区维稳平台项目中，梳理了原型框架，并带领UI团队优化了子页面的显示内容和交互方式，重构已有代码，满足了客户的需求。',
-        title: ''
-      },
-      {
-        info: '5、在苏州工业园区楼宇经济项目中，负责了楼宇调查信息页面的开发工作,并配合项目经理完成了企业填报、功能区审核、综合评价和数据汇总分析等全流程信息化管理体系的搭建。',
+        info: '4、协助项目经理开展苏州工业园区信息化建设，参与数字孪生系统和公安系统的搭建与功能开发，提升系统稳定性。',
         title: ''
       }
     ],
@@ -309,7 +285,7 @@ export const projectsData = [
     description:
       'The initial development of a lightweight inventory management system for small hazardous materials enterprises was contributed to, addressing their supply chain needs in procurement, sales, warehousing, inventory, data, compliance, and safety.',
     desc_zh:
-      '为了支撑公司打造危化品行业的全套供应链业务场景，初步搭建一套自研的轻量级进销存系统，目标客户为小型仓库的危化品企业，主要满足小型危化品公司采购、销售、仓库配货、全局库存管理、企业数据统计、合规及安全管理等功能',
+      '为了支撑公司打造危化品行业的全套供应链业务场景，初步搭建一套自研的轻量级进销存系统，目标客户为小型仓库的危化品企业，主要满足小型危化品公司采购、销售、仓库配货、全局库存管理、企业数据统计、合规及安全管理等功能。',
     tags: [
       {
         zh: '供应链管理',
@@ -343,7 +319,7 @@ export const projectsData = [
     description:
       'Developed a warehouse management system for hazardous materials production and storage enterprises. This system complies with the hazardous materials traceability code management and dynamic inbound and outbound requirements issued by the Shanghai Emergency Bureau. It assists production enterprises in batch applying for traceability codes within the emergency bureau system, as well as downloading, managing, and printing hazardous materials traceability codes. Additionally, it enables automatic reporting of inbound and outbound operations to the emergency bureau for hazardous materials production and storage enterprises.',
     desc_zh:
-      '为危化品生产及仓储企业打造一个仓管系统，该系统满足上海应急局所下发的危化品追溯码管理及动态出入库要求，帮助生产企业在应急局系统批量申请追溯码，下载、管理、打印危化品追溯码；并为危化品生产及仓储企业实现危化品出入库自动上报至应急局的动态出入库功能',
+      '为危化品生产及仓储企业打造一个仓管系统，该系统满足上海应急局所下发的危化品追溯码管理及动态出入库要求，帮助生产企业在应急局系统批量申请追溯码，下载、管理、打印危化品追溯码；并为危化品生产及仓储企业实现危化品出入库自动上报至应急局的动态出入库功能。',
     tags: [
       {
         zh: '危化品追溯码',
@@ -376,7 +352,7 @@ export const projectsData = [
     description: `Developed a comprehensive digital system for a third-party hazardous materials storage company in Shanghai, which manages the entire process of owner appointment for delivery/pickup and vehicle entry for on-site operations on the reservation day.
             `,
     desc_zh:
-      '为上海某第三方危化品仓储公司打造的一套货主预约送货/提货及当日车辆进入现场作业的全流程管理的数字化系统',
+      '为上海某第三方危化品仓储公司打造的一套货主预约送货/提货及当日车辆进入现场作业的全流程管理的数字化系统。',
     tags: [
       {
         zh: '现场调研',
@@ -509,7 +485,7 @@ export const projectsData = [
     description:
       'Based on the dual demand of "enterprise side + government side," developed a platform product that empowers both enterprises and government entities. This project incorporated the latest business management requirements and user feedback to enhance functionalities such as data aggregation methods, business process flows, evaluation system configuration, and historical data analysis.',
     desc_zh:
-      '基于“企业端+政务端”的双重需求背景下，搭建可为企业端、政务端赋能的平台产品，并结合最新业务管理需求与用户反馈，实现数据汇聚方式、业务功能流程、评价体系配置、历史数据分析等功能强化；	',
+      '基于“企业端+政务端”的双重需求背景下，搭建可为企业端、政务端赋能的平台产品，并结合最新业务管理需求与用户反馈，实现数据汇聚方式、业务功能流程、评价体系配置、历史数据分析等功能强化。	',
 
     tags: [
       {
@@ -543,7 +519,7 @@ export const projectsData = [
     description:
       'Based on the comprehensive evaluation methods for building economy, developed a digital management and information platform for comprehensive evaluation, aimed at achieving an overall understanding and scientific assessment of the current state of the building economy.',
     desc_zh:
-      '立足楼宇经济综合评价办法，构建数字化管理与综合评价信息化平台，旨在实现对楼经济现状的总体掌握与科学评价',
+      '立足楼宇经济综合评价办法，构建数字化管理与综合评价信息化平台，旨在实现对楼经济现状的总体掌握与科学评价。',
     tags: [
       {
         zh: '可视化图表',
