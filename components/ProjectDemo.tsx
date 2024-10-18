@@ -39,7 +39,9 @@ const Projects = () => {
     { scope: container }
   )
   return (
-    <section className="bg-primary bg-[url('/bg2.png')] bg-cover bg-no-repeat" ref={container}>
+    <section
+      className="bg-primary rounded-lg bg-[url('/bg2.png')] bg-cover bg-no-repeat"
+      ref={container}>
       <div className="w-full max-w-[1200px] mx-auto p-[50px] pt-[50px] pb-[120px] px-[20px] overflow-hidden">
         <div className="section__header text-white text-center max-w-[600px] mx-auto">
           <h2 className="sub__title text-2xl font-medium">My Recent Projects</h2>
