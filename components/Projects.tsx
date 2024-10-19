@@ -4,8 +4,8 @@ import React from 'react'
 import { headerLanguageMap, projectsData } from '@/lib/data'
 import { useSectionInView } from '@/lib/hooks'
 import SectionHeading from './SectionHeading'
-// import Project from './Project'
-import Project from './ProjectDemo'
+import Project from './Project'
+// import Project from './ProjectDemo'
 
 import { useLocale } from 'next-intl'
 import Link from 'next/link'
@@ -22,15 +22,14 @@ export default function Projects() {
         {activeLocale === 'zh' ? headerLanguageMap['Projects'] : 'Featured Projects'}
       </SectionHeading>
       <div>
-        {/* {projectsData.map((project, index) => (
+        {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>
-        ))} */}
-        <React.Fragment>
-          {/* <Project {...project} /> */}
+        ))}
+        {/* <React.Fragment>
           <Project />
-        </React.Fragment>
+        </React.Fragment> */}
       </div>
       <Link
         className="group tracing-wide font-semibold hover:underline hover:underline-offset-4 hover:decoration-pink text-slate-800 dark:text-slate-400 w-full flex gap-1 items-center justify-center mt-10"

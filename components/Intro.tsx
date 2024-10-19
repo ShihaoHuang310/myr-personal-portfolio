@@ -168,7 +168,7 @@ export default function Intro() {
         {activeLocale === 'en' && (
           <p>
             My focus is{' '}
-            <span className="italic font-bold">
+            <span className=" font-bold">
               on designing and implementing tailored solutions to meet customer requirements.
             </span>
           </p>
